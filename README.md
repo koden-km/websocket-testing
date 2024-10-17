@@ -34,10 +34,15 @@ $ cd client
 $ open index.html
 ```
 
-Once connected type a message in the box and send it to the server. If the
-message is the _command_ string `foo`, then the server will respond by sending a
-_command_ string of `bar` back to the client. If the client gets a _command_
-string of `bar` it will send back a message string of `OK!`.
+Once connected type a message in the box and send it to the server.
+
+If the message to the server is the _command_ string `ping`, then the server
+will respond with a `pong!` message.
+
+If the message to the server is the _command_ string `foo`, then the server will
+respond by sending a _command_ string of `bar` back to the client. If the client
+receives the _command_ string of `bar` it will send back a message string of
+`FOOBAR!`.
 
 ### Example Output
 
