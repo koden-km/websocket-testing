@@ -20,9 +20,11 @@ Client connected!
 Sending:  Hello Client!
 Received:  Hello Server!
 Received:  test
+Received:  ping
+Sending:  pong!
 Received:  foo
 Sending:  bar
-Received:  OK!
+Received:  FOOBAR!
 ```
 
 ## Client
@@ -46,7 +48,9 @@ Connection opened!
 Sending:  Hello Server!
 Received:  Hello Client!
 Sending:  test
+Sending:  ping
+Received:  pong!
 Sending:  foo
 Received:  bar
-Sending:  OK!
+Sending:  FOOBAR!
 ```
